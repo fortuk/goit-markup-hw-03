@@ -57,8 +57,9 @@ body {
   line-height: 16px;
 }
 .navigation {
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 93px;
+  margin-right: 30px;
+  margin-top: 15px;
 }
 .stydio1 {
   color: black;
@@ -106,10 +107,6 @@ body {
 .tell:hover {
   color: #2196f3;
 }
-.ul
-.p{
-  margin-top: 0px;
-}
 .size {
   padding: 94px 0px;
 }
@@ -133,7 +130,6 @@ body {
   width: 200px;
   height: 50px;
   background-color: #2196f3;
-  
 }
 .button_goal {
   cursor: pointer;
@@ -142,8 +138,9 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: 0px;
 }
-.location_direction:nth-child(1) {
+.location_direction:first-child {
   margin-left: 0px;
 }
 .location_direction:nth-child(n+1){
@@ -173,6 +170,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #757575;
+  
 }
 .text_work {
   font-family: Roboto;
@@ -181,30 +179,30 @@ body {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
+  margin-top: 0px;
 }
 .foto_work {
   display: flex;
   flex-direction: row;
+}
+.foto
+.image_team
+.image_kontent{
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 .foto {
   margin-left: 215px;
 }
 .foto:nth-child(1){
   margin-left: 0px;
+
 }
 .foto:not(:first-child) {
-  margin-left: 100px;
+  margin-left: 30px;
   flex-basis: calc((100% - 90px) / 4);
-}
-.foto_1 {
-  margin: 50px 30px 0px 215px;
-}
-.foto_2 {
-  margin: 50px 0px 0px 0px;
-}
-.foto_3 {
-  margin: 50px 215px 0px 30px;
-}
+} 
 .our_team {
   background-color: #f5f4fa;
 }
@@ -228,7 +226,7 @@ body {
   height: auto;
 }
 .image_team{
-  margin-left: 80px;
+  margin-left: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -238,7 +236,7 @@ body {
 }
 .image_team :not(:first-child) {
   display: block;
-  margin-left: 60px;
+  margin-left: 30px;
   flex-basis: calc((100% - 30px) / 2);
 }
   /* .image_team2 {
@@ -270,8 +268,8 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  text-align: center;
   color: black;
+  padding-left: 50px;
 }
 .position_team {
   font-family: Roboto;
@@ -279,13 +277,13 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-  text-align: center;
   color: #757575;
+  padding-left: 50px;
 }
 .legall_adress {
   background-color: #2f303a;
   height: 252px;
-  margin: 0px;
+  margin-bottom: 0px;
 }
 .legel_div{
 padding: 50px;
@@ -294,15 +292,19 @@ padding: 50px;
   display: flex;
   flex-direction: row;
   background-color: #ffffff;
-  margin: 0px 30px 56px 0px;
+  margin-left: 215px;
 }
 .text_buttom {
   color: black;
 }
+.boton{
+  background: #F5F4FA;
+  border-radius: 4px;
+  border: 1px solid #F5F4FA;
+}
 .button:first-child{
   display: block;
-  margin-left: 300px;
-  margin-bottom: 56px;
+  margin-left: 0px;
 }
 .button:not(:first-child){
   margin-left:30px;
@@ -337,23 +339,25 @@ padding: 50px;
   width: 130px;
   height: 38;
 }
-.text_buttom:hover {
-  color: #ffffff;
-}
 .button_1:hover {
   background-color: #2196f3;
+  color: #ffffff;
 }
 .button_2:hover {
   background-color: #2196f3;
+  color: #ffffff;
 }
 .button_3:hover {
   background-color: #2196f3;
+  color: #ffffff;
 }
 .button_4:hover {
   background-color: #2196f3;
+  color: #ffffff;
 }
 .button_5:hover {
   background-color: #2196f3;
+  color: #ffffff;
 }
 .kontent_image {
   display: flex;
@@ -387,7 +391,7 @@ padding: 50px;
   display: block;
 }
 .text{
-  padding-left:  30px;
+  padding-left: 30px;
 }
 /* .img_kontent1{
     margin: 120px 30px 0px 200px;
