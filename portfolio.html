@@ -6,58 +6,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио</title>
-    <style>
-        li {list-style: none;}
-        a {text-decoration: none}
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <style>
+        li {list-style: none;}
+        a {text-decoration: none  }
+    </style>
 </head>
-<body class="container">
+<body>
     <!-- Шапка сайта -->
     <header class="headers">
         <div class="headers_div container">
             <nav class="headers_navigation"><a class="logo" style="color: black;" href=""><span
                         class="firs_logo">Web</span>Studio</a>
                 <ul class="style_navigation">
-                    <li class="navigation stydio"><a class="stydio1" href="/index.html">Студия</a></li>
-                    <li class="navigation portfolio"><a class="portfolio1" href="portfolio.html">Портфолио</a></li>
-                    <li class="navigation contakts"><a class="contakts1" href="Контакты">Контакты</a></li>
+                    <li class="navigation"><a class="stydio1" href="/index.html">Студия</a></li>
+                    <li class="navigation"><a class="portfolio1" href="portfolio.html">Портфолио</a></li>
+                    <li class="navigation"><a class="contakts1" href="Контакты">Контакты</a></li>
             </nav>
         </div>
         <div class="headers_div container">
             <ul class="style_mail_tel">
-                <li class="mail"><a class="e_mail" href="maito:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="tel"><a class="tell" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li class="navigation2"><a class="e_mail" href="maito:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="navigation2"><a class="tell" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </div>
     </header>
     <main>
         <!-- Навигация по сайту -->
-        <section class="size container">
-            <div class="conteiner">
+        <section class="size">
+            <div class="container">
             <ul class="buttons_selection">
                 <li class="button"><button class="button_1" type="button">Все</button></li>
                 <li class="button"><button class="button_2" type="button">Веб-сайты</li>
                 <li class="button"><button class="button_3" type="button">Приложения</span></button></li>
-                <li class="button"><button class="button_4"  type="button">Дизайн</span></button></li>
-                <li class="button"><button class="button_5"  type="button">Маркетинг</button></li>
+                <li class="button"><button class="button_4" type="button">Дизайн</span></button></li>
+                <li class="button"><button class="button_5" type="button">Маркетинг</button></li>
             </ul>
+            </div>
+            <div class="container">
             <ul class="kontent_image">
                 <li class="img_kontent">
                     <a class="img_kontent_link" href="">
-                        <img src="img/10.jpg" alt="table" width="370"/>
+                        <img src="img/10.jpg" alt="table" width="350"/>
                          <div class="text">
                             <h3 class="text_img_kontent">Технокряк</h3>
-                            <p >Веб-сайт</p>
+                            <p class="location_img_kontent">Веб-сайт</p>
                          </div>
                     </a>
                 </li>
                 <li class="img_kontent">
                     <a class="img_kontent_link" href="">
-                        <img src="img/11.jpg" alt="basketboll" width="370"/>
+                        <img src="img/11.jpg" alt="basketboll" width="350"/>
                         <div class="text">
                             <h3 class="text_img_kontent">Постер New Orlean vs Golden Star</h3>
                             <p class="location_img_kontent">Дизайн</p>
@@ -66,7 +69,7 @@
                 </li>
                 <li class="img_kontent">
                     <a class="img_kontent_link" href="">
-                        <img src="img/12.jpg" alt="logo" width="370"/>
+                        <img src="img/12.jpg" alt="logo" width="350"/>
                          <div class="text">
                             <h3 class="text_img_kontent">Ресторан Seafood</h3>
                             <p class="location_img_kontent">Приложение</p>
@@ -75,7 +78,7 @@
                 </li>
                 <li class="img_kontent">
                     <a class="img_kontent_link" href="">
-                        <img src="img/13.jpg" alt="headphones" width="370"/>
+                        <img src="img/13.jpg" alt="headphones" width="350"/>
                         <div class="text">
                             <h3 class="text_img_kontent">Проект Prime</h3>
                             <p class="location_img_kontent">Маркетинг</p>
@@ -84,7 +87,7 @@
                 </li>
                 <li class="img_kontent">
                     <a class="img_kontent_link" href="">
-                        <img src="img/14.jpg" alt="two boxses" width="370"/>
+                        <img src="img/14.jpg" alt="two boxses" width="350"/>
                         <div class="text">
                             <h3 class="text_img_kontent">Проект Boxes</h3>
                             <p class="location_img_kontent">Приложение</p>
@@ -93,7 +96,7 @@
                 </li>
                 <li class="img_kontent">
                     <a class="img_kontent_link" class="img_kontent_link" href="">
-                        <img src="img/15.jpg" alt="computer" width="370"/>
+                        <img src="img/15.jpg" alt="computer" width="350"/>
                         <div class="text">
                             <h3 class="text_img_kontent">Inspiration has no Borders</h3>
                             <p class="location_img_kontent">Веб-сайт</p>
@@ -102,7 +105,7 @@
                 </li>
                 <li class="img_kontent">
                     <a class="img_kontent_link" href="">
-                        <img src="img/16.jpg" alt="book" width="370"/>
+                        <img src="img/16.jpg" alt="book" width="350"/>
                         <div class="text">
                             <h3 class="text_img_kontent">Издание Limited Edition</h3>
                             <p class="location_img_kontent">Дизайн</p>
@@ -111,7 +114,7 @@
                 </li>
                 <li class="img_kontent">
                     <a class="img_kontent_link" href="">
-                        <img src="img/17.jpg" alt="text on brelok" width="370"/>
+                        <img src="img/17.jpg" alt="text on brelok" width="350"/>
                         <div class="text">
                             <h3 class="text_img_kontent">Проект LAB</h3>
                             <p class="location_img_kontent">Маркетинг</p>
@@ -120,7 +123,7 @@
                 </li>
                 <li class="img_kontent">
                     <a class="img_kontent_link" href="">
-                        <img src="img/18.jpg" alt="work on computer" width="370"/>
+                        <img src="img/18.jpg" alt="work on computer" width="350"/>
                         <div class="text">
                             <h3 class="text_img_kontent">Growing Business</h3>
                             <p class="location_img_kontent">Приложение</p>
@@ -141,7 +144,7 @@
                     <li class="legal"><a class="mail2" href="maito:info@devstudio.com">info@devstudio.com</a></li>
                     <li class="legal"><a class="tel2" href="tel:+380961111111">+38 096 111 11 11</a></li>
                 </ul>
-        </div>
         </address>
+        </div>
     </footer>
 </body>
