@@ -8,25 +8,24 @@ html {
 }
 body {
   font-family: "Roboto", sans-serif;
+  max-width: 1600px;
 }
 .container {
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: 15px
-  margin-right: 15px
+  margin-left: auto;
+  margin-right: auto;
 }
 .headers {
   display: flex;
   flex-direction: row;
-  box-sizing: content-box;
-  height: 80px;
 }
 .headers_navigation {
   display: flex;
   flex-direction: row;
 }
-.headers {
+.header {
   border: 1px solid #ececec;
 }
 .logo {
@@ -37,7 +36,7 @@ body {
   line-height: 31px;
 }
 .logo {
-  padding: 24px 0px 25px 215px;
+  padding: 24px 0px 25px 30px;
 }
 .firs_logo {
   color: #2196f3;
@@ -91,6 +90,8 @@ body {
 .style_mail_tel {
   display: flex;
   flex-direction: row;
+  text-align: left;
+  margin-left: 280px;
 }
 .navigation2 {
   padding-top: 15px;
@@ -188,7 +189,7 @@ body {
 .foto_work {
   display: flex;
   flex-direction: row;
-  margin-left: 215px;
+  margin-left: 0px;
 }
 .img {
   display: block;
@@ -218,7 +219,7 @@ body {
 .image_team1 {
   display: flex;
   flex-direction: row;
-  margin-left: 180px;
+  margin-left: 0px;
 }
 .image_team {
   margin-left: 30px;
@@ -256,7 +257,6 @@ body {
 }
 .legel_div {
   padding-top: 50px;
-  padding-left: 215px;
   padding-bottom: 60px;
 }
 .logo1 {
@@ -266,7 +266,7 @@ body {
   font-size: 26px;
 }
 .logo1 {
-  margin-left: 10px;
+  margin-left: 30px;
   margin-bottom: 20px;
 }
 .legal:nth-child(1) {
@@ -370,9 +370,8 @@ body {
   flex-wrap: wrap;
   padding-left: 0px;
   margin-top: 50px;
-  margin-left: 80px;
+  margin-left: 0px;
   margin-right: 0px;
-  outline: 2px solid tomato;
 }
 .img_kontent {
   border: 1px solid #eeeeee;
