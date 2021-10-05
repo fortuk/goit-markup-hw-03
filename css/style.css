@@ -8,25 +8,37 @@ html {
 }
 body {
   font-family: "Roboto", sans-serif;
-  max-width: 1600px;
+  font-family: "Oleo Script", cursive;
+  font-family: "Raleway", sans-serif;
 }
 .container {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
+h1,
+h2,
+h3,
+p,
+ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 .headers {
   display: flex;
   flex-direction: row;
+  vertical-align: middle;
 }
 .headers_navigation {
   display: flex;
   flex-direction: row;
 }
 .header {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+  display: flex;
+  flex-direction: row;
 }
 .logo {
   font-family: Raleway;
@@ -34,9 +46,10 @@ body {
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
+  vertical-align: middle;
 }
 .logo {
-  padding: 24px 0px 25px 30px;
+  padding: 25px 0px;
 }
 .firs_logo {
   color: #2196f3;
@@ -48,9 +61,19 @@ body {
 .style_navigation {
   display: flex;
   flex-direction: row;
+  margin-left: 93px;
+  padding-left: 0px;
 }
-.style_navigation {
-  justify-content: space-around;
+.navigation:last-child {
+  margin-left: 50px;
+  padding: 32px 0px;
+}
+.navigation:not(:last-child) {
+  margin-left: 50px;
+  padding: 32px 0px;
+}
+.nav {
+  padding: 32px 0px;
 }
 .navigation {
   font-family: Roboto;
@@ -58,10 +81,6 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-}
-.navigation {
-  padding-top: 15px;
-  padding-left: 50px;
 }
 .stydio1 {
   color: black;
@@ -91,12 +110,15 @@ body {
   display: flex;
   flex-direction: row;
   text-align: left;
-  margin-left: 280px;
+  margin-left: auto;
+  padding-left: 0px;
 }
-.navigation2 {
-  padding-top: 15px;
-  padding-left: 50px;
-  text-align: right;
+.navigation2:first-child {
+  margin-right: 50px;
+  padding: 32px 0px;
+}
+.navigation2:nth-child(n + 1) {
+  padding: 32px 0px;
 }
 .e_mail {
   color: rgba(117, 117, 117, 1);
@@ -110,16 +132,16 @@ body {
 .tell:hover {
   color: #2196f3;
 }
-.h1 .h2 .h3 .p .ul {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
 .size {
   padding: 94px 0px;
 }
 .goal {
   background-color: #2f303a;
   text-align: center;
+  padding: 200px 0px;
+}
+.goaal {
+  width: 696px;
 }
 .main_goal {
   font-family: Roboto;
@@ -128,13 +150,12 @@ body {
   font-size: 44px;
   text-align: center;
   color: #ffffff;
-  margin-top: 200px;
   margin-bottom: 30px;
+  text-transform: uppercase;
 }
 .button_goal {
   padding: 10px 32px;
   background-color: #2196f3;
-  margin-bottom: 200px;
 }
 .button_goal {
   cursor: pointer;
@@ -145,21 +166,22 @@ body {
   justify-content: space-between;
   margin-bottom: 0px;
   margin-left: 0px;
+  padding-left: 0px;
 }
-.location_direction:nth-child(1) {
+.location_direction:first-child {
   margin-left: 0px;
 }
 .location_direction:nth-child(n + 1) {
   margin-left: 30px;
-  flex-basis: calc((100% - 30px) / 4);
+  flex-basis: calc((100% - 90px) / 4);
 }
 .location_direction:nth-child(n + 2) {
   margin-left: 30px;
-  flex-basis: calc((100% - 30px) / 4);
+  flex-basis: calc((100% - 90px) / 4);
 }
 .location_direction:nth-child(n + 3) {
   margin-left: 30px;
-  flex-basis: calc((100% - 30px) / 4);
+  flex-basis: calc((100% - 90px) / 4);
 }
 .text_direction {
   font-family: Roboto;
@@ -168,6 +190,8 @@ body {
   font-size: 14px;
   line-height: 16px;
   color: black;
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
 .paragraf_direction {
   font-family: Roboto;
@@ -185,23 +209,25 @@ body {
   line-height: 42px;
   text-align: center;
   padding-top: 0px;
+  margin-bottom: 50px;
 }
 .foto_work {
   display: flex;
   flex-direction: row;
   margin-left: 0px;
+  padding-left: 0px;
 }
 .img {
   display: block;
   max-width: 100%;
   height: auto;
 }
-.foto:nth-child(1) {
+.foto:first-child {
   margin-left: 0px;
 }
 .foto:not(:first-child) {
   margin-left: 30px;
-  flex-basis: calc((100% - 90px) / 4);
+  flex-basis: calc((100% - 60px) / 4);
 }
 .our_team {
   background-color: #f5f4fa;
@@ -215,24 +241,26 @@ body {
   line-height: 42px;
   text-align: center;
   color: black;
+  margin-bottom: 50px;
 }
 .image_team1 {
   display: flex;
   flex-direction: row;
   margin-left: 0px;
+  padding-left: 0px;
 }
 .image_team {
   margin-left: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  background-color: #ffffff;
 }
 .image_team:nth-child(1) {
   margin-left: 0px;
 }
 .image_team :not(:first-child) {
-  margin-left: 30px;
-  flex-basis: calc((100% - 30px) / 2);
+  flex-basis: calc((100% - 120px) / 2);
 }
 .text_team {
   font-family: Roboto;
@@ -241,7 +269,6 @@ body {
   font-size: 16px;
   line-height: 19px;
   color: black;
-  padding-left: 50px;
 }
 .position_team {
   font-family: Roboto;
@@ -250,14 +277,18 @@ body {
   font-size: 16px;
   line-height: 19px;
   color: #757575;
-  padding-left: 50px;
+  margin-left: 0px;
+}
+.text1 {
+  padding: 30px 60px;
 }
 .legall_adress {
   background-color: #2f303a;
+  padding: 60px 0px;
 }
-.legel_div {
-  padding-top: 50px;
-  padding-bottom: 60px;
+.firs_logo1 {
+  box-sizing: border-box;
+  margin-bottom: 10px;
 }
 .logo1 {
   font-family: Raleway;
@@ -265,17 +296,23 @@ body {
   font-weight: bold;
   font-size: 26px;
 }
-.logo1 {
-  margin-left: 30px;
-  margin-bottom: 20px;
+.legel_div:first-child {
+  margin-bottom: 0px;
 }
-.legal:nth-child(1) {
-  padding-bottom: 9px;
+.legal:first-child {
+  margin-bottom: 9px;
 }
 .legal:nth-child(n + 1) {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 .legal:last-child {
+  margin-bottom: 0px;
+}
+.adres {
+  text-transform: capitalize;
+  font-style: normal;
+  margin-top: 20px;
+  padding-left: 0px;
   margin-bottom: 0px;
 }
 .addres1 {
@@ -299,51 +336,46 @@ body {
 .buttons_selection {
   display: flex;
   flex-direction: row;
-  background-color: #ffffff;
-  margin-left: 250px;
-}
-.boton {
-  background: #f5f4fa;
-  border-radius: 4px;
-  border: 1px solid #f5f4fa;
-  padding: 6px 22px;
   text-align: center;
+  background-color: #ffffff;
+  padding-left: 0px;
 }
-.button:first-child {
+.button1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+.button1:first-child {
   margin-left: 0px;
+  margin-right: 0px;
 }
-.button:not(:first-child) {
-  padding-left: 30px;
-  flex-basis: calc((100% - 30px) / 16);
-}
-.button:last-child {
-  margin-left: 0px;
-  flex-basis: calc((100% - 30px) / 16);
+.button1:nth-child(n + 1) {
+  margin-left: 8px;
+  margin-right: 0px;
+  flex-basis: calc((100% - 40px) / 5);
 }
 .button_1 {
   cursor: pointer;
-  width: 73px;
-  height: 38;
+  padding: 6px 22px;
+  background-color: #2196f3;
+  color: #ffffff;
+  border: 2px solid #f5f4fa;
 }
 .button_2 {
+  display: inline-block;
   cursor: pointer;
-  width: 128px;
-  height: 38;
+  padding: 6px 22px;
 }
 .button_3 {
   cursor: pointer;
-  width: 145px;
-  height: 38;
+  padding: 6px 22px;
 }
 .button_4 {
   cursor: pointer;
-  width: 103px;
-  height: 38;
+  padding: 6px 22px;
 }
 .button_5 {
   cursor: pointer;
-  width: 130px;
-  height: 38;
+  padding: 6px 22px;
 }
 .button_1:hover {
   background-color: #2196f3;
@@ -398,7 +430,7 @@ body {
   display: block;
 }
 .text {
-  padding-left: 30px;
+  padding: 20px 24px;
 }
 .text_img_kontent {
   font-family: Roboto;
